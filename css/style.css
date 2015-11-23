@@ -18,7 +18,7 @@ header h1{
   margin-left: 30px;
   font-family: sans-serif;
   font-style: oblique;
-  background: url(/img/jadhoo.png) no-repeat;
+  background: url(../img/jadhoo.png) no-repeat;
   text-indent: -9999px;
   background-size: 300px 70px;
   height: 70px;
@@ -105,7 +105,7 @@ nav .selected{
 }
 
 .img_hero{
-  background: url(/img/hero.jpg) no-repeat;
+  background: url(../img/hero.jpg) no-repeat;
   width:950px;
   height:531px;
   margin: 0;
