@@ -1,5 +1,5 @@
 body{
-  background-color: #ececec;
+  background-color: white;
 }
 /*=header*/
 header {
@@ -7,10 +7,10 @@ header {
   background-color:white;
   height: 80px;
   width:960px;
-  border-bottom: 2px solid;
-  border-color: #e3e3e3;
   padding-bottom: 20px;
   position: fixed;
+  margin-bottom: 30px;
+  padding-top: 20px;
 }
 header h1{
   float:left;
@@ -66,14 +66,14 @@ nav .selected{
 
 /*=part*/
 .main{
-   margin-top: 100px;
+   margin-top: 130px;
 }
 .part img{
   height: 300px;
   width: 300px
 }
 .part section{
-  padding-top: 10px;
+  padding-top: 30px;
   padding-left: 10px;
   margin: 0px;
 }
@@ -83,8 +83,11 @@ nav .selected{
 }
 .part h4{
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .hero{
+  margin-top: 20px;
   background-color: white;
   margin-bottom: 30px;
 }
@@ -100,15 +103,12 @@ nav .selected{
   font-size: 18px;
   font-family:segou ui;
 }
-.hero img{
-  margin: 0;
-}
-
 .img_hero{
   background: url(../img/hero.jpg) no-repeat;
   width:950px;
   height:531px;
   margin: 0;
+  margin-bottom: 10px;
   background-size: 950px 531px;;
 }
 .img_hero h1{
@@ -121,27 +121,31 @@ nav .selected{
 
 }
 .info{
-  background-color: white;
   margin: 0;
-  padding: 5px;
   float: left;
+  margin-bottom: 0px;
+}
+.info h3{
+  font-family: helvetica;
+  margin-bottom: 0px;
+  font-size: 20px;
 }
 .info p{
   font-family: helvetica;
+  font-weight:100;
 }
-.hero1{
-  margin-left: 4px;
+.hero{
+  background-color: #ececec;
   margin-right: 0px;
-  border: 1px solid black;
   margin-bottom: 30px;
 }
-.hero1 section{
+.hero section{
+  padding: 0;
   width: 306px;
   text-align: center;
   font-family: sans-serif;
 }
-.hero1 h3{
-  height:62px;
+.hero h3{
   font-family: Segoe UI;
 }
 .part1 {
@@ -166,19 +170,24 @@ nav .selected{
   font-size: 30px;
   margin-top: 30px;
   text-decoration: underline;
-  font-family: helvetica;
+  font-family: Open Sans;
+  font-weight: 400;
+  color:#1C1C1C;
 }
 .part1 p{
   text-align: justify;
-  font-size: 18px;
+  font-size: 20px;
   padding: 30px;
-  font-family: Helvetica;
+  padding-bottom: 20px;
+  font-family: Open Sans;
+  font-weight: 400;
+  color:#22313F;
+  margin-bottom: 0;
 }
 .part1 a{
-  float:right;
-  padding: 10px;
   color: black;
   text-decoration: none;
+  margin-left: 30px;
 }
 /*=footer*/
 footer{
@@ -187,13 +196,14 @@ footer{
   margin-bottom: 20px;
   border-color: #e3e3e3;
   background-color: white;
+  margin-top: 50px;
 }
 footer section{
   background-color: white;
 }
 footer li{
   list-style: none;
-  margin-left: 0;
+  margin-left:0;
 }
 footer a{
   text-decoration: none;
@@ -230,6 +240,12 @@ footer a:hover img{
   margin-top: 20px;
   margin-left: 0;
 
+}
+.women_main h3{
+  font-size: 40px;
+  text-align: center;
+  color: #585858;
+  padding-top: 20px;
 }
 .women_main h4{
   margin-top: 5px;
