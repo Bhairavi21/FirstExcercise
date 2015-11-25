@@ -39,6 +39,7 @@ nav{
 margin-left: 100px;
 margin-right: 50px;
 font-size: 14px;
+padding-right: 0;
 }
 
 nav a{
@@ -131,6 +132,8 @@ nav .selected{
   font-size: 20px;
 }
 .info p{
+  padding: 10px;
+  text-align: justify;
   font-family: helvetica;
   font-weight:100;
 }
